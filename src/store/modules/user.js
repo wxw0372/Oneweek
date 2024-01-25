@@ -36,8 +36,8 @@ const actions = {
       loginApi(userInfo).then((response) => {
         console.log("response=>", response);
         // commit("SET_TOKEN", response.data);
-        setToken(response.data);
-        resolve();
+        // setToken(data.token);
+        // resolve();
       });
     });
   },

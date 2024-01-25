@@ -25,8 +25,6 @@
 </template>
 
 <script>
-import { loginApi } from "@/api/user";
-import store from "@/store/modules/user";
 export default {
   name: "Login",
   data() {
